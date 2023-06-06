@@ -1,0 +1,178 @@
+.discovery-image__background{
+    object-fit: contain;
+    background-image: url("../../assets/pexels-brett-sayles-4012671.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.discovery__heading {
+    font-size: 30px;
+    color: #fff;
+}
+
+.discovery__album-songs {
+    background-color: #363838;
+    padding: 40px;
+    height: 100%;
+}
+
+.songs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    margin: 15px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-wrapper {
+    position: relative;
+    overflow: hidden;
+    /* padding: 20px; */
+}
+
+.image-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 10px;
+}
+
+.icons a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: opacity 0.3s;
+}
+
+.icons a i {
+    pointer-events: none;
+}
+
+.icons a:hover {
+    opacity: 0.7;
+}
+
+.Dream-section{
+    background-image: url(../../assets/concert-cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+/* .Dream-section img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+} */
+
+.dream-title{
+    padding-top: 20px;
+}
+
+.dream-title h2{
+    font-size: 30px;
+}
+
+.first__song{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.first__song h3{
+    text-align: center;
+    font-size: 20px;
+    /* margin-top: 50px; */
+}
+
+.first__song img{
+    /* border-radius: 2px; */
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    object-fit: contain;
+}
+
+.first__song img:nth-child(0){
+    height: 100px;
+    object-fit: contain;
+}
+
+.player{
+    width: 300px;
+    height: 90px;
+    margin: 20px;
+}
+
+.player button{
+    color: #fff;
+    width: 200px;
+    height: 20px;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.dream-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.dream-content{
+    margin: 20px;
+}
+
+.dream-content p{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.dream__image-container{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.dream__image-item img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}

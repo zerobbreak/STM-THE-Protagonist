@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+@import url("../css/sections/header.css");
+@import url("../css/sections/hero.css");
+@import url("../css/sections/latest-album.css");
+@import url("../css/sections/contactHome.css");
+@import url("../css/sections/discovery.css");
+@import url("../css/sections/about.css");
+@import url("../css/sections/tour_date.css");
+@import url("../css/sections/gallery.css");
+@import url("../css/sections/contact.css");
+
+:root{
+    --playfair-display: "Playfair Display", serif;
+    --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+
+    --primary-color: #FAFAFA;
+    --secondary-color: #030000;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: var();
+}
+
+.image__background{
+    object-fit: contain;
+    background-image: url(../assets/pexels-kevin-bidwell-1427368.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    /* margin-top: 40px; */
+    background-color: #030000;
+    color: #FAFAFA;
+}
+
+.footer-title{
+    font-size: 30px;
+    padding: 30px;
+}
+
+.footer__info{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__content{
+    margin: 30px;
+    text-align: center;
+}
+
+.footer__content h3{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.footer__content p{
+    font-size: 15px;
+}
+
+.footer__line{
+    border-bottom: 2px solid grey;
+    /* width: 100%; */
+    margin: 15px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.footer-links a{
+    font-size: 30px;
+}
+
+.facebook{
+    color: rgb(35, 35, 250);
+}
+
+.instagram{
+    color: #833AB4;
+}
+
+.spotify{
+    color: #008000;
+}
+
+.twitter{
+    color: #00e7e7;
+}
+
+.youtube{
+    color: #ff0000;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 750px) {
+    
+}
+
+@media screen and (max-width: 550px) {
+    
+}
+
+@media screen and (max-width: 900px) {
+    
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 750px) {
+    
+}
+
+@media screen and (max-width: 550px) {
+    
+}
+
+@media screen and (max-width: 900px) {
+    
+}
+@media screen and (max-width: 900px) {
+    
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 750px) {
+    
+}
+
+@media screen and (max-width: 550px) {
+    
+}
+
+@media screen and (max-width: 900px) {
+    
+}

@@ -1,0 +1,31 @@
+.tour-image__background{
+    object-fit: contain;
+    background-image: url("../../assets/pexels-dreamlens-production-2450296.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.tour-dates{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tour-dates__upcoming{
+    /* border: 1px solid red; */
+    margin: 40px;
+    text-align: center;
+}
+
+.tour-dates__upcoming h5, .tour-dates__past h5{
+    font-size: 20px;
+    color: #9e9d9d;
+}
+
+.tour-dates__past{
+    /* border: 1px solid red; */
+    margin: 40px;
+}

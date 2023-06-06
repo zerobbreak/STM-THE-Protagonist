@@ -1,0 +1,26 @@
+.about-image__background{
+    object-fit: contain;
+    background-image: url("../../assets/pexels-karolina-grabowska-4471894.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.gallery{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gallary-image__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallary-image__container img{
+    margin: 20px;
+    width: 350px;
+    height: 400px;
+    object-fit: contain;
+}

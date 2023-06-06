@@ -1,0 +1,51 @@
+.about-image__background{
+    object-fit: contain;
+    background-image: url("../../assets/pexels-artem-podrez-6270257.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.about{
+    padding: 20px;
+}
+
+.vision{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+}
+
+.approach{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+}
+
+.process{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+}
+
+.vision-content, .approach-content, .process-content{
+    text-align: center;
+    margin: 60px;
+}
+
+p{
+    margin: 10px;
+}
+
+.vision-content h3, .approach-content h3, .process-content h3{
+    font-size: 25px;
+    margin: 10px;
+}
+
+img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    /* border-radius: 20px; */
+}
